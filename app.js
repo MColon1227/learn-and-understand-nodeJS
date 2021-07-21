@@ -13,6 +13,11 @@
 // console.log(firstname);
 
 //23. How Do Node Modules Really Work?: module.exports and require
-console.log('23. How Do Node Modules Really Work?: module.exports and require');
-const greet = require('./greet')
-greet()
+// console.log('23. How Do Node Modules Really Work?: module.exports and require');
+// const greet = require('./greet')
+// greet()
+
+//25 More require 
+const greet = require('./greet/index');
+greet.english();
+greet.spanish();
